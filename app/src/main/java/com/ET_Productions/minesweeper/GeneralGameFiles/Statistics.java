@@ -62,10 +62,6 @@ public class Statistics extends Activity {
 
         userStats.put("Battery Level", String.valueOf(getBatteryPercentage(this)));
 
-//        if(user.getName().toLowerCase().contains("noa"))
-//            userStats.put("Taste In Music", "Amazing");
-
-
         List<HashMap<String, String>> listItems = new ArrayList<HashMap<String, String>>();
         SimpleAdapter adapter = new SimpleAdapter(this, listItems, R.layout.list_item,
                 new String[]{"First Line", "Second Line"},
