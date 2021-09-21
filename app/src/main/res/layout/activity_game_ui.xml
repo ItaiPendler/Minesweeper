@@ -1,0 +1,793 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@color/gray"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    tools:context="com.ET_Productions.minesweeper.GameUI.GameUIActivity"
+
+    >
+
+    <Chronometer
+        android:id="@+id/chronometer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="Chronometer" />
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="305dp"
+        android:layout_height="340dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/difficulltyChooser"
+        android:background="@drawable/tablebackground">
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:layout_marginTop="15dp"
+            android:gravity="fill"
+            android:orientation="horizontal">
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/butn1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=1 j=1"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=1 j=2"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=1 j=3"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=1 j=4"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=1 j=5"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=1 j=6"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=1 j=7"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=1 j=8"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/butn9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=2 j=1"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=2 j=2"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn11"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=2 j=3"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn12"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=2 j=4"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn13"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=2 j=5"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn14"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=2 j=6"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn15"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=2 j=7"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn16"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=2 j=8"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/butn17"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=3 j=1"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn18"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=3 j=2"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn19"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=3 j=3"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn20"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=3 j=4"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn21"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=3 j=5"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn22"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=3 j=6"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn23"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=3 j=7"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn24"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=3 j=8"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/butn25"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=4 j=1"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn26"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=4 j=2"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn27"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=4 j=3"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn28"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=4 j=4"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn29"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=4 j=5"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn30"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=4 j=6"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn31"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=4 j=7"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn32"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=4 j=8"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/butn33"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=5 j=1"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn34"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=5 j=2"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn35"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=5 j=3"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn36"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=5 j=4"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn37"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=5 j=5"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn38"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=5 j=6"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn39"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=5 j=7"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn40"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=5 j=8"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/butn41"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=6 j=1"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn42"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=6 j=2"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn43"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=6 j=3"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn44"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=6 j=4"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn45"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=6 j=5"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn46"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=6 j=6"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn47"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=6 j=7"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn48"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=6 j=8"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow7"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/butn49"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=7 j=1"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn50"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=7 j=2"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn51"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=7 j=3"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn52"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=7 j=4"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn53"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=7 j=5"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn54"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=7 j=6 "
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn55"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=7 j=7"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn56"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=7 j=8"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow8"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:visibility="visible">
+
+                <Button
+                    android:id="@+id/butn57"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=8 j=1"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn58"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=8 j=2"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn59"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=8 j=3"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn60"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=8 j=4"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn61"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=8 j=5"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn62"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=8 j=6"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn63"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=8 j=7"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/butn64"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/realunopenedtile"
+                    android:contentDescription="i=8 j=8"
+                    android:onClick="press"
+                    tools:ignore="ButtonStyle" />
+
+            </TableRow>
+        </TableLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/difficulltyChooser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/chronometer1"
+        android:width="100dp"
+        android:text="yeah"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/realButnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/RelativeLayout1"
+        android:layout_toEndOf="@+id/butnflag"
+        android:width="1dp"
+        android:height="1dp"
+        android:background="@drawable/normalsmiley"
+        android:onClick="reset" />
+
+    <Button
+        android:id="@+id/butnflag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/RelativeLayout1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="121dp"
+        android:layout_weight="1"
+        android:background="@drawable/unflagtile"
+        android:onClick="flagMode"
+        tools:ignore="ButtonStyle" />
+
+    <ImageView
+        android:id="@+id/endGameImageViewAnimator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

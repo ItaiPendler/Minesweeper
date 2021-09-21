@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Minesweeper</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_board">Board</string>
+    <string name="title_activity_game_ui">GameUIActivity</string>
+    <string name="title_activity_grid_test_board">GridTestBoard</string>
+
+    <color name="gray">#C0C0C0</color>
+
+    <string name="empty_name"></string>
+    <string name="restart">Restart</string>
+    <string name="close_app">Exit</string>
+    <string name="music_toggle">Toggle Music</string>
+    <string name="save">Save Game</string>
+    <string name="end_game">End Game</string>
+    <string name="frame_layout">It Surrounds The Field</string>
+    <string name="title_activity_diffecullty">Diffecullty</string>
+    <string name="dateString">The Date Was: </string>
+    <string name="difficulltyString">The Game Difficullty Was:</string>
+    <string name="nameString">The Name Was:</string>
+    <string name="timeString">The Time Was:</string>
+    <string name="screenShot">Take A Screenshot</string>
+    <string name="title_activity_statistics">Statistics</string>
+    <string name="title_activity_end_game">EndGameActivity</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_high_scores">HighScores</string>
+    <string name = "gameInstuctions">In this game you must cover every mine on the board by long pressing on a tile you think may contain a mine or by using the flag
+    mine mode Button, each non-mine-tile contains a number of the mines that are around said tile. You may restart the game at any point by clicking the smiley on top of the board. Thank You and Have Fun!</string>
+
+</resources>

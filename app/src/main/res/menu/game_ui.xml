@@ -1,0 +1,58 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.minesweeper.GameUIActivity" >
+
+    <item
+        android:id="@+id/closeTab"
+        android:enabled="true"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/close_app"
+        android:visible="true" />
+    <item
+        android:id="@+id/statisticsTab"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title='Statistics'/>
+
+    <item
+        android:id="@+id/musicToggleBox"
+
+        android:enabled="true"
+        android:showAsAction="never|always"
+        android:title="@string/music_toggle"
+        android:visible="true">
+
+    </item>
+    
+    <item 
+        android:id="@+id/saveTab"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/save"
+        android:visible="true" 
+        android:enabled="true"
+        />
+    
+    <item 
+        android:id="@+id/resetTab"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/restart"
+      	android:visible="true" 
+        android:enabled="true"
+        />
+
+    <item
+        android:id="@+id/ScreenShot"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/screenShot"
+        android:visible="true" 
+        android:enabled="true"/>
+    <item
+        android:id="@+id/winGameTabButn"
+        android:title="Win Game" />
+
+
+</menu>

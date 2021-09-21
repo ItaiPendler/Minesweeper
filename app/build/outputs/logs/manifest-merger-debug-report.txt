@@ -1,0 +1,101 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml
+		INJECTED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml
+		INJECTED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml
+		INJECTED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:8:22-63
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:10:22-77
+application
+ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:13:5-41:19
+	android:label
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:16:9-41
+	android:permission
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:17:9-56
+	android:icon
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:15:9-45
+	android:allowBackup
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:18:9-40
+activity#com.ET_Productions.minesweeper.MainActivity
+ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:19:9-27:20
+	android:label
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:21:13-45
+	android:name
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:20:13-71
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:25:27-74
+activity#com.ET_Productions.minesweeper.GameUI.GameUIActivity
+ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:28:9-30:62
+	android:label
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:30:13-59
+	android:name
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:29:13-80
+activity#com.ET_Productions.minesweeper.GeneralGameFiles.Difficulty
+ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:31:9-33:66
+	android:label
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:33:13-63
+	android:name
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:32:13-86
+activity#com.ET_Productions.minesweeper.GeneralGameFiles.Statistics
+ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:34:9-36:65
+	android:label
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:36:13-62
+	android:name
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:35:13-86
+activity#com.ET_Productions.minesweeper.GeneralGameFiles.HighScores
+ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:37:9-39:66
+	android:label
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:39:13-63
+	android:name
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml:38:13-86
+uses-sdk
+INJECTED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml
+INJECTED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml
+INJECTED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml
+INJECTED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml
+		INJECTED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml
+		ADDED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml
+		INJECTED from D:\User Stuff\MineSweeper Stuff\hhh\MinesweeperAndroidStudioNewModuleForButtons\app\src\main\AndroidManifest.xml

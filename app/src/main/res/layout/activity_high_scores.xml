@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/highScoresLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:visibility="visible"
+    tools:context="com.ET_Productions.minesweeper.GeneralGameFiles.HighScores">
+
+    <TextView
+        android:id="@+id/LastScoreTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:onClick="showMoreDialog"
+        android:padding="20dp"
+        android:text="The Last Score Was:"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/highestScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LastScoreTV"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:onClick="showMoreDialog"
+        android:padding="20dp"
+        android:text="Best Score:" />
+
+    <TextView
+        android:id="@+id/secondBestScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/highestScore"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:onClick="showMoreDialog"
+        android:padding="20dp"
+        android:text="#2 Best Score:" />
+
+    <TextView
+        android:id="@+id/thirdBestScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondBestScore"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:onClick="showMoreDialog"
+        android:padding="20dp"
+        android:text="#3 Best Score" />
+
+    <TextView
+        android:id="@+id/headerHighScores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="High Scores"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/clearScoresButn"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="166dp"
+        android:background="@drawable/button_shape"
+        android:capitalize="words"
+        android:onClick="clearScores"
+        android:padding="20dp"
+        android:text="Clear Scores"
+        android:textAllCaps="false"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:id="@+id/checkBoxLayoutNew"
+        android:layout_width="295dp"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginBottom="66dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cbGeneral"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:checked="true"
+                android:onClick="cbOnclick"
+                android:text="General" />
+
+            <CheckBox
+                android:id="@+id/cbBeginner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cbGeneral"
+                android:layout_alignStart="@+id/cbGeneral"
+                android:onClick="cbOnclick"
+                android:text="Beginner" />
+
+            <CheckBox
+                android:id="@+id/cbExpert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/cbMaster"
+                android:layout_alignBottom="@+id/cbBeginner"
+                android:onClick="cbOnclick"
+                android:text="Expert" />
+
+            <CheckBox
+                android:id="@+id/cbMaster"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/cbGeneral"
+                android:layout_alignParentEnd="true"
+                android:onClick="cbOnclick"
+                android:text="Master" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ET_Productions.minesweeper.MainActivity" >
+
+    <Button
+        android:id="@+id/butn11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"        
+        android:background="@drawable/button_shape"
+        android:onClick="play"
+        android:text="Start"
+        android:textColor="@android:color/white"
+    	android:layout_marginTop = "60dp"
+		android:layout_marginBottom = "10dp"
+		android:layout_marginRight = "10dp"
+		android:layout_marginLeft = "10dp"
+     />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/butn11"
+        android:layout_below="@+id/butn11"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint="Player Name"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:onClick="load"
+        android:text="Load Previous Game"
+        android:textColor="@android:color/white"
+        android:layout_marginTop = "30dp"
+		android:layout_marginBottom = "10dp"
+		android:layout_marginRight = "10dp"
+		android:layout_marginLeft = "10dp" />
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Minesweeper"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/black" />
+
+	<Button
+		android:id="@+id/highScoreButn"
+		android:layout_width="208dp"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/btnReset"
+		android:layout_centerHorizontal="true"
+		android:layout_margin="20dp"
+		android:background="@drawable/button_shape"
+		android:onClick="highScore"
+		android:text="High Scores"
+		android:textColor="@android:color/white" />
+
+</RelativeLayout>

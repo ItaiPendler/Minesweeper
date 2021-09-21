@@ -1,0 +1,83 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\User Stuff\\MineSweeper Stuff\\hhh\\MinesweeperAndroidStudioNewModuleForButtons\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "D:\\User Stuff\\MineSweeper Stuff\\hhh\\MinesweeperAndroidStudioNewModuleForButtons\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "29,30",
+                        "startColumns": "4,4",
+                        "startOffsets": "865,923",
+                        "endColumns": "57,55",
+                        "endOffsets": "918,974"
+                    }
+                },
+                {
+                    "source": "D:\\User Stuff\\MineSweeper Stuff\\hhh\\MinesweeperAndroidStudioNewModuleForButtons\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "10,5,3,14,20,21,12,17,18,29,4,15,22,13,16,24,23,6,19,26,7,8,28,25,27",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "416,163,59,544,867,922,458,687,734,1417,109,588,995,499,643,1103,1049,217,799,1227,273,340,1350,1161,1296",
+                        "endLines": "10,5,3,14,20,21,12,17,18,30,4,15,22,13,16,24,23,6,19,26,7,8,28,25,27",
+                        "endColumns": "38,52,48,42,53,71,39,45,63,213,52,53,52,43,42,56,52,54,66,67,65,72,65,64,52",
+                        "endOffsets": "450,211,103,582,916,989,493,728,793,1793,157,637,1043,538,681,1155,1097,267,861,1290,334,408,1411,1221,1344"
+                    },
+                    "to": {
+                        "startLines": "28,31,32,33,34,35,36,37,38,39,41,42,43,58,59,60,61,62,63,64,65,66,67,68,69",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "826,979,1032,1081,1124,1178,1250,1282,1328,1392,1770,1823,1877,2974,3018,3061,3118,3171,3226,3293,3361,3427,3500,3566,3631",
+                        "endLines": "28,31,32,33,34,35,36,37,38,40,41,42,43,58,59,60,61,62,63,64,65,66,67,68,69",
+                        "endColumns": "38,52,48,42,53,71,31,45,63,213,52,53,52,43,42,56,52,54,66,67,65,72,65,64,52",
+                        "endOffsets": "860,1027,1076,1119,1173,1245,1277,1323,1387,1765,1818,1872,1925,3013,3056,3113,3166,3221,3288,3356,3422,3495,3561,3626,3679"
+                    }
+                },
+                {
+                    "source": "D:\\User Stuff\\MineSweeper Stuff\\hhh\\MinesweeperAndroidStudioNewModuleForButtons\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,522",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,679"
+                    },
+                    "to": {
+                        "startLines": "70,77",
+                        "startColumns": "4,4",
+                        "startOffsets": "3684,3975",
+                        "endLines": "76,79",
+                        "endColumns": "12,12",
+                        "endOffsets": "3970,4130"
+                    }
+                },
+                {
+                    "source": "D:\\User Stuff\\MineSweeper Stuff\\hhh\\MinesweeperAndroidStudioNewModuleForButtons\\app\\src\\main\\res\\values\\strings_activity_statistics.xml",
+                    "from": {
+                        "startLines": "14,19,29,37,11,9,26,7,49,52,12,10,50,51,8,27,46,53",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "615,781,1115,1373,459,256,976,106,1735,1954,525,393,1804,1896,163,1043,1602,2011",
+                        "endLines": "18,23,36,44,11,9,26,7,49,52,12,10,50,51,8,27,46,53",
+                        "endColumns": "19,19,19,19,64,135,65,55,67,55,86,64,90,56,91,68,80,54",
+                        "endOffsets": "775,921,1367,1594,519,387,1037,157,1798,2005,607,453,1890,1948,250,1107,1678,2061"
+                    },
+                    "to": {
+                        "startLines": "2,7,12,20,44,45,46,47,48,49,50,51,52,53,54,55,56,57",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,216,357,607,1930,1995,2131,2197,2253,2321,2377,2464,2529,2620,2677,2769,2838,2919",
+                        "endLines": "6,11,19,27,44,45,46,47,48,49,50,51,52,53,54,55,56,57",
+                        "endColumns": "19,19,19,19,64,135,65,55,67,55,86,64,90,56,91,68,80,54",
+                        "endOffsets": "211,352,602,821,1990,2126,2192,2248,2316,2372,2459,2524,2615,2672,2764,2833,2914,2969"
+                    }
+                }
+            ]
+        }
+    ]
+}
